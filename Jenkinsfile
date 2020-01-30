@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('checkout'){
             steps {
-                git branch: 'master', url: 'https://github.com/sivaramap/docker-terraform'
+                git branch: 'master', url: 'https://github.com/sivaramap/Docker-Terraform'
             }
         }
       
