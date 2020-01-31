@@ -1,5 +1,5 @@
 provider "docker" { 
-host = "tcp://127.0.0.1:8080/"
+# host = "tcp://127.0.0.1:8080/"
 	}
 
 resource "docker_container" "nginx-server" {
